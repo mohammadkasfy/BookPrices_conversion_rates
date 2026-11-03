@@ -97,7 +97,7 @@ def display_books(books, exchange_rate):
 def email_books(books, exchange_rate):
     """Create an email containing all the book prices."""
 
-    recipient = "mohammadkasfy@gmail.com"
+    recipient = "python1sample2@gmail.com"
 
     subject = "Book Price Watcher"
 
@@ -128,7 +128,7 @@ def main():
     books = scrape_books()
     exchange_rate = get_exchange_rate()
     display_books(books, exchange_rate)
-    #email_books(books, exchange_rate)
+    email_books(books, exchange_rate)
 
 
 if __name__ == "__main__":
